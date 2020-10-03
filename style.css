@@ -1,0 +1,156 @@
+a {
+    color:#000;
+    text-decoration:none;
+}
+
+form {
+    display:block;
+    width:50%;
+    margin-left:23%;
+
+}
+
+#searchbox {
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px darkgrey solid;
+    width: 100%;
+    height: 40px;
+    display: inline-flex;
+    padding-left: 50px;
+    margin: 30px 0px;
+    display: flex;
+    flex: 1;
+    background: url(/google-homepage/desktop_searchbox_sprites302_hr.webp) no-repeat scroll 10px 6px;
+    background-size: 30px;
+    box-sizing: content-box;
+}
+
+input:focus, textarea {
+    outline: none !important;
+}
+
+html, button, input, select, textarea {
+    color: #222;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+#botNav {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    position: absolute;
+}
+
+.rightside {
+    float: right;
+    margin-right:30px;
+}
+
+#botNav a{
+    margin: 20px 10px;
+    font-size: 14px;
+    color: #5f6368;
+  }
+
+.button {
+    overflow: visible;
+    background-color: #f4f4f4;
+    color: #646368;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+    width: auto;
+    line-height: 27px;
+}
+
+.button:hover {
+    border:1px darkgray solid;
+    }
+
+main {
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#hamburger {
+    width:15px;
+    height:15px;
+}
+
+#upnav {
+    margin-top: 15px;
+    overflow:hidden;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #000000;
+    margin: 20px;
+}
+
+#searchbox:hover {
+    box-shadow: 0px 1px 3px 1px rgb(218, 218, 218);
+    }
+
+.logo {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    float:left;
+}
+
+li a {
+    display: block;
+    margin: 10px;
+    font-family:arial,sans-serif;
+}
+
+.topnav {
+    display: inline;
+}
+
+.topnav-right {
+    float:right;
+}
+
+.search {
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#signIn {
+    background-color: #4583ec;
+    color: white;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px 15px;
+}
